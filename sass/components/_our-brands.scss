@@ -1,0 +1,78 @@
+.our-brands {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background: #0f0f0f;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+}
+
+.our-brands__control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-brands__title {
+  margin-bottom: 40px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    margin-bottom: 40px;
+  }
+}
+
+.our-brands__line {
+  width: 120px;
+  border: 1px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+.our-brands__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1110px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.our-brands__item {
+  margin-right: 30px;
+}

@@ -1,0 +1,158 @@
+.portfolio-box {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    flex-direction: row;
+  }
+}
+
+.portolio-left {
+  background-color: #000000;
+  background-image: url(../image/jacketnew.png);
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    width: 880px;
+  }
+}
+
+.portfolio-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+  background: #000000;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    width: 1040px;
+    height: 600px;
+    left: 880px;
+    top: 1664px;
+  }
+}
+
+.portfolio-right__tittle {
+  margin-bottom: 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+  }
+}
+
+.portfolio-right__line {
+  width: 120px;
+  border: 1px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+.portfolio-right__text {
+  width: 300px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    margin-bottom: 73px;
+    width: 471px;
+  }
+}
+
+.portfolio-right__button {
+  width: 300px;
+
+  background: transparent;
+  border: 1px solid #ffffff;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+}
+
+.portolio-left__photo {
+  width: 320px;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    max-width: auto;
+  }
+}
+
+.portfolio-right {
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+  }
+}

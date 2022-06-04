@@ -1,0 +1,247 @@
+.footer {
+  background-image: url(../image/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding-top: 80px;
+  padding-bottom: 101px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+.footer-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+  }
+}
+
+.footer-information__title {
+  margin-bottom: 40px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+  }
+}
+
+.footer-information__text {
+  width: 280px;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    width: 350px;
+    height: 147px;
+    margin-right: 31px;
+  }
+}
+
+.footer-category {
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer-category__title {
+  margin-bottom: 40px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.footer-category-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+.footer-category-list__item {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-category-list__buttons {
+  padding: 10px 20px 10px 20px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  background: #0f0f0f;
+  border: 0px;
+
+  color: #d0d0d0;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-form__tittle {
+  margin-bottom: 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-form__text {
+  margin-bottom: 37px;
+  max-width: 350px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.footer-form__label {
+  display: flex;
+}
+
+.footer-form__input {
+  width: 150px;
+  background: rgba(255, 255, 255, 0.4);
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1110px) {
+    width: 210px;
+    height: 42px;
+
+    padding-left: 10px;
+  }
+}
+
+.footer-form__btn {
+  width: 140px;
+  height: 41px;
+
+  background: #0f0f0f;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  letter-spacing: 0.05em;
+
+  border: 0px;
+  color: #ffffff;
+}
+
+.footer-form__input::placeholder {
+  color: white;
+  margin-right: 10px;
+}
