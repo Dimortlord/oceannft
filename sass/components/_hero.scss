@@ -1,0 +1,25 @@
+.hero {
+  background: rgba(32, 8, 59, 0.75);
+}
+
+.hero__title {
+  width: 291px;
+  height: 161px;
+  padding-top: 80px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.38;
+
+  color: #ffffff;
+}
+
+.hero_title-control {
+  background: linear-gradient(272.38deg, #43a5e3 46.06%, #ff56f6 81.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

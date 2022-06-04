@@ -1,9 +1,13 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-Vector" viewBox="0 0 29 32">
-<path d="M5.971 8.393l-1.342-0.819 1.342 1.955 1.343-1.955-1.342 0.819zM5.991 5.007l-1.342 2.303 1.342 0.821 1.342-0.82-1.342-2.304z"></path>
+<symbol id="icon-vector" viewBox="0 0 32 32">
+<path d="M15.975 1.482l-8.871 14.721 8.871-4.032v-10.689z"></path>
+<path d="M15.975 12.171l-8.871 4.032 8.871 5.245v-9.277z"></path>
+<path d="M24.847 16.203l-8.873-14.721v10.689l8.873 4.032z"></path>
+<path d="M15.974 21.448l8.873-5.245-8.873-4.032v9.277z"></path>
+<path d="M7.104 17.886l8.871 12.502v-7.26l-8.871-5.242z"></path>
+<path d="M15.974 23.128v7.26l8.878-12.502-8.878 5.242z"></path>
 </symbol>
-
 
 
 
