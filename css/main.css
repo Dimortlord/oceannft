@@ -305,12 +305,14 @@ img {
 }
 
 .hero__brand-list {
+  margin-bottom: 100px;
   display: grid;
   gap: 20px 35px;
   grid-template-columns: 1fr 1fr;
 }
 
 .hero__brand-icon {
+  width: 103px;
   fill: #fff;
   opacity: 0.5;
 }
@@ -504,6 +506,192 @@ img {
 }
 
 .box-confirm__img {
+  padding-left: 5px;
+}
+
+.gallery__box-img {
+  width: 304px;
+  height: 267px;
+}
+
+.gallery__title {
+  margin-bottom: 20px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.gallery__box-card {
+  display: flex;
+  width: 304px;
+  height: 174.79px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+  backdrop-filter: blur(46.7522px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.gallery__box__title {
+  margin-bottom: 7px;
+  padding-left: 22px;
+  padding-top: 26px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.0526px;
+  line-height: 34px;
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.gallery-name {
+  padding-left: 22px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery-name__img {
+  margin-left: 2px;
+  margin-right: 3px;
+}
+
+.gallery-name__text {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.9211px;
+  line-height: 34px;
+  /* identical to box height, or 229% */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.gallery__text-thirht {
+  height: 7px;
+  margin-bottom: 5px;
+  padding-left: 22px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.6579px;
+  line-height: 34px;
+  /* identical to box height, or 320% */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.gallery-price {
+  padding-left: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery-price-icon {
+  margin-right: 5px;
+  fill: #fff;
+}
+
+.gallery-price__text {
+  margin-right: 5px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.36903px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.gallery-price__text-secondary {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.6579px;
+  line-height: 34px;
+  /* identical to box height, or 320% */
+  display: flex;
+  align-items: center;
+}
+
+.gallery__text-fourth {
+  padding-top: 26px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.6579px;
+  line-height: 34px;
+  /* identical to box height, or 320% */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.gallery-time__list {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.gallery-time__item {
+  margin-right: 18px;
+}
+
+.gallery-time__title {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.0526px;
+  line-height: 34px;
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.gallery-time__text {
+  height: 7px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.6579px;
+  line-height: 34px;
+  /* identical to box height, or 320% */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.gallery-confirm__btn {
+  display: flex;
+  align-items: center;
+  width: 115.11px;
+  height: 36.24px;
+  left: 214.64px;
+  top: 1148.37px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.0526px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+  box-shadow: 0px 4.26316px 103.382px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(204.632px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5.13158px;
+}
+
+.gallery-confirm__img {
   padding-left: 5px;
 }
 /*# sourceMappingURL=main.css.map */
