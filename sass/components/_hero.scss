@@ -59,11 +59,20 @@
     #3bace2 100%,
     #406aff 117.04%
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
-  backdrop-filter: blur(212.248px);
-  /* Note: backdrop-filter has minimal browser support */
 
-  border-radius: 2.21092px;
+  border: 1.18px solid;
+
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+
+  border-image-slice: 1;
+  box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(113.253px);
+
+  border-radius: 1.17972px;
 }
 
 .hero__link {
@@ -345,7 +354,6 @@
   /* identical to box height */
 
   color: #ffffff;
-
   background: linear-gradient(
     92.23deg,
     #ff56f6 21.43%,
@@ -353,11 +361,18 @@
     #3bace2 100%,
     #406aff 117.04%
   );
-  box-shadow: 0px 4.26316px 103.382px rgba(255, 86, 246, 0.51);
-  backdrop-filter: blur(204.632px);
-  /* Note: backdrop-filter has minimal browser support */
 
-  border-radius: 5.13158px;
+  border: 2.13px solid;
+  border-radius: 4.13158px;
+
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+  border-image-slice: 1;
+
+  box-shadow: 0px 4.263157844543457px 103.38158416748047px 0px #ff56f682;
 }
 
 .box-confirm__img {

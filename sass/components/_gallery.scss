@@ -4,6 +4,7 @@
 }
 
 .gallery {
+  margin-bottom: 109px;
 }
 .gallery__title {
   margin-bottom: 20px;
@@ -16,6 +17,7 @@
   color: #ffffff;
 }
 .gallery__box {
+  margin-bottom: 40px;
 }
 .gallery__box-img {
 }
@@ -206,12 +208,42 @@
     #3bace2 100%,
     #406aff 117.04%
   );
-  box-shadow: 0px 4.26316px 103.382px rgba(255, 86, 246, 0.51);
-  backdrop-filter: blur(204.632px);
-  /* Note: backdrop-filter has minimal browser support */
+  border: 2px solid;
 
-  border-radius: 5.13158px;
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+
+  border-image-slice: 1;
+
+  box-shadow: 0px 3.4001593589782715px 82.45386505126953px 0px #ff56f682;
 }
 .gallery-confirm__img {
   padding-left: 5px;
+}
+
+.gallery-explore__btn {
+  width: 133.31px;
+  height: 34.21px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+
+  border-radius: 1.17972px;
+  border: 1.18px solid;
+
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+  border-image-slice: 1;
+  box-shadow: 0px 2.3594470024108887px 57.21659469604492px 0px #ff56f682;
+  background: transparent;
 }
