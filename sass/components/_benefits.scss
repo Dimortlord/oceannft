@@ -1,0 +1,72 @@
+.benefits {
+  background-image: url(../image/benefits.jpg);
+  background-repeat: no-repeat;
+}
+
+.benefits-control__icon {
+  fill: white;
+}
+
+.benefits-card {
+  width: 305px;
+  height: 275px;
+
+  border: 1.68px solid;
+
+  border-image-source: linear-gradient(
+    113.62deg,
+    #616161 0%,
+    rgba(255, 255, 255, 0) 96.25%
+  );
+
+  border-image-slice: 1;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(84.6282px);
+}
+
+.benefits__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.87px;
+  line-height: 1.35px;
+
+  color: #ffffff;
+}
+
+.benefits__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.6415px;
+  line-height: 1.78;
+
+  color: #ffffff;
+}
+
+.benefits-control {
+  display: flex;
+  align-items: center;
+}
+
+.benefits-control__link {
+  margin-right: 25.87px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.348px;
+  line-height: 1.5;
+
+  color: #ffffff;
+}
+
+.benefits-control__link-secondary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.348px;
+  line-height: 1.5;
+
+  color: #ffffff;
+}
