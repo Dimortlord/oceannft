@@ -1,0 +1,63 @@
+.subscribe__title {
+  margin-bottom: 18.24px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26.2703px;
+  line-height: 1.2;
+
+  color: #ffffff;
+}
+
+.subscribe__text {
+  margin-bottom: 32.84px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1351px;
+  line-height: 1.7;
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+}
+
+.subscribe-form {
+  margin-bottom: 109px;
+}
+
+.subscribe-form__input {
+  width: 180.97px;
+  height: 35.03px;
+
+  background: #f4f5f7;
+  border-radius: 3.64865px 0px 0px 3.64865px;
+}
+
+.subscribe-form__btn {
+  width: 94.86px;
+  height: 37.11px;
+
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+
+  border: 1.59px solid;
+
+  border-image-source: linear-gradient(
+    272.52deg,
+    #ffa6fa 47.49%,
+    #3c79d5 98.81%
+  );
+
+  border-image-slice: 1;
+
+  box-shadow: 0px 3.18009px 77.1171px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(152.644px);
+
+  border-radius: 0px 3.64865px 3.64865px 0px;
+}
