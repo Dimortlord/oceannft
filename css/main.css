@@ -808,6 +808,8 @@ img {
 }
 
 .portfolio__card {
+  margin-bottom: 43px;
+  position: relative;
   width: 290px;
   height: 391.13px;
   border: 1.99px solid;
@@ -848,12 +850,14 @@ img {
 .portfolio-list {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 15px;
 }
 
 .portfolio__item {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .portfolio__title-statistic {
@@ -861,7 +865,7 @@ img {
   font-style: normal;
   font-weight: 600;
   font-size: 21.9417px;
-  line-height: 44px;
+  line-height: auto;
   /* identical to box height, or 200% */
   display: flex;
   align-items: center;
@@ -869,12 +873,12 @@ img {
   color: #ffffff;
 }
 
-.portfoilo__text-statistic {
+.portfolio__text-statistic {
   font-family: "Rajdhani";
   font-style: normal;
   font-weight: 500;
   font-size: 13.7136px;
-  line-height: 44px;
+  line-height: auto;
   /* identical to box height, or 320% */
   display: flex;
   align-items: center;
@@ -899,5 +903,54 @@ img {
   border-image-slice: 1;
   box-shadow: 0px 3.33558px 80.8879px rgba(255, 86, 246, 0.51);
   backdrop-filter: blur(160.108px);
+}
+
+.portfolio__img {
+  margin-bottom: 52px;
+}
+
+.portfolio__img-secondary {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio__title-information {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.8391px;
+  line-height: 32px;
+  /* or 189% */
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.portfolio-vector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.portfolio-vector__text {
+  margin-right: 1.5px;
+}
+
+.portfolio__item {
+  height: 65px;
+  margin-right: 40px;
+}
+
+.portfolio__item:last-child {
+  margin-right: 0px;
+}
+
+.portfolio__information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
