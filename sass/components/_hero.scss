@@ -3,13 +3,17 @@
 }
 
 .hero__box {
+  display: flex;
+  justify-content: center;
+
   margin-bottom: 40px;
+  position: relative;
 }
 
 .hero__title {
+  margin-bottom: 40px;
   padding-left: 20px;
-  width: 291px;
-  height: 161px;
+
   padding-top: 80px;
 
   font-family: "Lato";
@@ -29,6 +33,7 @@
 }
 
 .hero__text {
+  margin-bottom: 40px;
   padding-left: 20px;
   font-family: "Rajdhani";
   font-style: normal;
@@ -40,6 +45,8 @@
 }
 
 .hero__btn {
+  margin-right: 20px;
+  margin-bottom: 40px;
   margin-left: 20px;
   width: 133.31px;
   height: 34.21px;
@@ -89,6 +96,7 @@
 }
 
 .hero__item {
+  margin-bottom: 40px;
   margin-left: 20px;
   padding: 0;
   display: flex;
@@ -129,10 +137,10 @@
 }
 
 .hero__brand-list {
-  margin-bottom: 100px;
   display: grid;
   gap: 20px 35px;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 .hero__brand-icon {
@@ -151,6 +159,8 @@
 }
 
 .hero__box-card {
+  position: absolute;
+  top: 70%;
   display: flex;
   width: 300px;
   height: 174.79px;

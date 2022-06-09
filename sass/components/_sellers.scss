@@ -1,5 +1,6 @@
 .sellers {
-  margin-bottom: 109px;
+  padding-top: 109px;
+  background: rgba(32, 8, 59, 0.75);
 }
 
 .sellers__title {
@@ -44,6 +45,12 @@
   text-align: center;
 
   color: #ffffff;
+}
+
+.sellers__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sellers__item {
@@ -99,6 +106,7 @@
 }
 
 .sellers-vector {
+  width: 90px;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
