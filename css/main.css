@@ -31,7 +31,7 @@ img {
 }
 
 .container {
-  max-width: 1150px;
+  max-width: 1550px;
   margin: 0px auto;
   padding: 0px 25px;
 }
@@ -205,11 +205,29 @@ img {
   background: rgba(32, 8, 59, 0.75);
 }
 
+.hero__main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__main {
+    align-items: center;
+  }
+}
+
 .hero__box {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
   position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__box {
+    margin-bottom: 50px;
+  }
 }
 
 .hero__title {
@@ -222,6 +240,14 @@ img {
   font-size: 42px;
   line-height: 1.38;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__title {
+    text-align: center;
+    font-size: 66px;
+    line-height: 1.37;
+  }
 }
 
 .hero_title-control {
@@ -240,6 +266,19 @@ img {
   font-size: 14px;
   line-height: 1.64;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__text {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.7;
+  }
+}
+
+.hero__button {
+  display: flex;
+  align-items: baseline;
 }
 
 .hero__btn {
@@ -263,6 +302,22 @@ img {
   border-radius: 1.17972px;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__btn {
+    width: 249.83px;
+    height: 64.12px;
+    font-size: 20px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__icon {
+    width: 52px;
+    height: 16px;
+  }
+}
+
 .hero__link {
   font-family: "Orbitron";
   font-style: normal;
@@ -275,11 +330,24 @@ img {
   background-clip: text;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__link {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+}
+
 .hero__item {
   margin-bottom: 40px;
   margin-left: 20px;
   padding: 0;
   display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__item {
+    justify-content: center;
+  }
 }
 
 .hero__list {
@@ -299,6 +367,13 @@ img {
   color: #ffffff;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__tittle-secondary {
+    font-size: 40px;
+    line-height: 1.325;
+  }
+}
+
 .hero__text-secondary {
   font-family: "Lato";
   font-style: normal;
@@ -310,6 +385,13 @@ img {
   align-items: center;
   letter-spacing: 0.117972px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  .hero__text-secondary {
+    font-size: 18px;
+    line-height: 1.22;
+  }
 }
 
 .hero__brand-list {
@@ -325,10 +407,22 @@ img {
   opacity: 0.5;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__brand-icon {
+    width: 143.08px;
+  }
+}
+
 .hero__box-img {
   width: 300px;
   height: 511.79px;
   filter: drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (min-width: 375px) {
+  .hero__box-img {
+    width: 325px;
+  }
 }
 
 .hero__box-card {
@@ -341,6 +435,12 @@ img {
   backdrop-filter: blur(58.6184px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 8.52632px;
+}
+
+@media screen and (min-width: 375px) {
+  .hero__box-card {
+    width: 325px;
+  }
 }
 
 .hero__box__title {
@@ -736,6 +836,12 @@ img {
   background: transparent;
 }
 
+@media screen and (min-width: 768px) {
+  .gallery-explore__btn {
+    align-items: center;
+  }
+}
+
 .explore {
   padding-top: 109px;
   background: rgba(32, 8, 59, 0.75);
@@ -777,6 +883,12 @@ img {
   border-image-source: linear-gradient(272.52deg, rgba(255, 166, 250, 0.3) 47.49%, rgba(60, 121, 213, 0.3) 98.81%);
   border-image-slice: 1;
   box-shadow: 0px 2.386469841003418px 57.87188720703125px 0px #ff56f682;
+}
+
+@media screen and (min-width: 375px) {
+  .explore__item {
+    width: 152.52px;
+  }
 }
 
 .explore__item:hover, .explore__item:focus {
@@ -840,6 +952,12 @@ img {
   border-image-slice: 1;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
   backdrop-filter: blur(54.8377px);
+}
+
+@media screen and (min-width: 375px) {
+  .portfolio__card {
+    width: 303px;
+  }
 }
 
 .portfolio__title {

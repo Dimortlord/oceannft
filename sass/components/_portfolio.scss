@@ -26,6 +26,13 @@
     rgba(255, 255, 255, 0.024) 104.35%
   );
   backdrop-filter: blur(54.8377px);
+
+  @media screen and (min-width: 375px) {
+    width: 303px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .portfolio__title {

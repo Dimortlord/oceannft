@@ -39,6 +39,13 @@
   border: 1.19px solid;
   border: 1.19px solid;
 
+  @media screen and (min-width: 375px) {
+    width: 152.52px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+
   border-image-source: linear-gradient(
     272.52deg,
     rgba(255, 166, 250, 0.3) 47.49%,

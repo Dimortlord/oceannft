@@ -2,12 +2,32 @@
   background: rgba(32, 8, 59, 0.75);
 }
 
+.hero__main {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
 .hero__box {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 
   margin-bottom: 40px;
   position: relative;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__title {
@@ -23,6 +43,15 @@
   line-height: 1.38;
 
   color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    text-align: center;
+    font-size: 66px;
+    line-height: 1.37;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero_title-control {
@@ -42,6 +71,20 @@
   line-height: 1.64;
 
   color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.7;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.hero__button {
+  display: flex;
+  align-items: baseline;
 }
 
 .hero__btn {
@@ -80,6 +123,26 @@
   backdrop-filter: blur(113.253px);
 
   border-radius: 1.17972px;
+
+  @media screen and (min-width: 768px) {
+    width: 249.83px;
+    height: 64.12px;
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.hero__icon {
+  @media screen and (min-width: 768px) {
+    width: 52px;
+    height: 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__link {
@@ -93,6 +156,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__item {
@@ -100,6 +171,13 @@
   margin-left: 20px;
   padding: 0;
   display: flex;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__list {
@@ -119,6 +197,14 @@
   letter-spacing: 0.117972px;
 
   color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 1.325;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__text-secondary {
@@ -134,6 +220,14 @@
   letter-spacing: 0.117972px;
 
   color: rgba(255, 255, 255, 0.6);
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__brand-list {
@@ -147,6 +241,13 @@
   width: 103px;
   fill: #fff;
   opacity: 0.5;
+
+  @media screen and (min-width: 768px) {
+    width: 143.08px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__box-img {
@@ -156,6 +257,13 @@
   filter: drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25))
     drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25))
     drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25));
+
+  @media screen and (min-width: 375px) {
+    width: 325px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__box-card {
@@ -173,6 +281,13 @@
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 8.52632px;
+
+  @media screen and (min-width: 375px) {
+    width: 325px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .hero__box__title {
