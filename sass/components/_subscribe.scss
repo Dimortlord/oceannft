@@ -66,3 +66,12 @@
 
   border-radius: 0px 3.64865px 3.64865px 0px;
 }
+
+.subscribe-img {
+  @media screen and (min-width: 375px) {
+    width: 326px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
