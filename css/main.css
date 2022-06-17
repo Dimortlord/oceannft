@@ -1080,6 +1080,13 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio__card {
+    width: 437.76px;
+    height: 564.89px;
+  }
+}
+
 .portfolio__title {
   margin-bottom: 30px;
   font-family: "Orbitron";
@@ -1114,6 +1121,12 @@ img {
   margin-bottom: 15px;
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio-list {
+    margin-bottom: 63px;
+  }
+}
+
 .portfolio__item {
   display: flex;
   align-items: center;
@@ -1134,6 +1147,13 @@ img {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio__title-statistic {
+    font-size: 31.6897px;
+    line-height: 2;
+  }
+}
+
 .portfolio__text-statistic {
   font-family: "Rajdhani";
   font-style: normal;
@@ -1146,6 +1166,13 @@ img {
   text-align: center;
   color: #ffffff;
   opacity: 0.7;
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__text-statistic {
+    font-size: 19.8061px;
+    line-height: 2px;
+  }
 }
 
 .portfolio-btn {
@@ -1170,11 +1197,25 @@ img {
   margin-bottom: 52px;
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio__img-first {
+    width: 441.13px;
+    height: 205.62px;
+  }
+}
+
 .portfolio__img-secondary {
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__img-secondary {
+    width: 162.5px;
+    height: 162.5px;
+  }
 }
 
 .portfolio__title-information {
@@ -1189,6 +1230,13 @@ img {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio__title-information {
+    font-size: 24.3201px;
+    line-height: 1.91;
+  }
+}
+
 .portfolio-vector {
   display: flex;
   align-items: center;
@@ -1198,6 +1246,13 @@ img {
 
 .portfolio-vector__text {
   margin-right: 1.5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-vector__text {
+    font-size: 20.1601px;
+    line-height: 2.3;
+  }
 }
 
 .portfolio__item {
@@ -1225,6 +1280,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.portfolio-vector__img {
+  width: 15.84px;
+  height: 17.28px;
 }
 
 .sellers {
@@ -1436,8 +1496,15 @@ img {
 }
 
 .control-benefits {
-  width: 577.05px;
-  height: 473.14px;
+  width: 320px;
+  height: 300px;
+}
+
+@media screen and (min-width: 1200px) {
+  .control-benefits {
+    width: 577.05px;
+    height: 473.14px;
+  }
 }
 
 .benefits-card {
