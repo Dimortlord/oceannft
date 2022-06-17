@@ -2,6 +2,24 @@
   background: rgba(32, 8, 59, 0.75);
 }
 
+.hero__box-left {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero__box-right {
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+  }
+}
+
 .hero__main {
   display: flex;
   flex-direction: column;
@@ -11,6 +29,7 @@
   }
 
   @media screen and (min-width: 1200px) {
+    align-items: inherit;
   }
 }
 
@@ -51,6 +70,8 @@
   }
 
   @media screen and (min-width: 1200px) {
+    width: 700px;
+    text-align: inherit;
   }
 }
 
@@ -79,6 +100,8 @@
   }
 
   @media screen and (min-width: 1200px) {
+    width: 657.75px;
+    text-align: inherit;
   }
 }
 
@@ -177,6 +200,7 @@
   }
 
   @media screen and (min-width: 1200px) {
+    justify-content: inherit;
   }
 }
 
@@ -235,6 +259,14 @@
   gap: 20px 35px;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .hero__brand-icon {
@@ -247,6 +279,8 @@
   }
 
   @media screen and (min-width: 1200px) {
+    width: 265.31px;
+    height: 53.06px;
   }
 }
 
@@ -263,6 +297,8 @@
   }
 
   @media screen and (min-width: 1200px) {
+    width: 401.78px;
+    height: 477.36px;
   }
 }
 
@@ -287,6 +323,9 @@
   }
 
   @media screen and (min-width: 1200px) {
+    width: 336.06px;
+    height: 181.3px;
+    left: 30%;
   }
 }
 

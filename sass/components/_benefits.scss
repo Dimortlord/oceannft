@@ -1,10 +1,18 @@
 .benefits {
-  background: rgba(32, 8, 59, 0.75);
+  background: center/cover rgba(32, 8, 59, 0.75);
   background-image: url(../image/benefits.jpg);
   background-repeat: no-repeat;
+
   display: flex;
   justify-content: center;
   position: relative;
+
+  @media screen and (min-width: 768px) {
+    background: center/cover url(../image/background.jpg) no-repeat;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .benefits-control__icon {
