@@ -100,7 +100,7 @@
 
 .explore-view {
   margin-bottom: 1px;
-  padding-left: 223px;
+
   display: flex;
   justify-items: center;
   align-items: center;
@@ -146,10 +146,14 @@
 }
 
 .explore-control {
-  display: flex;
-  align-items: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .explore-box {
-  margin-right: 130px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 130px;
+  }
 }

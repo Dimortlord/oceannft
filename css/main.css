@@ -997,7 +997,6 @@ img {
 
 .explore-view {
   margin-bottom: 1px;
-  padding-left: 223px;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -1039,13 +1038,17 @@ img {
   }
 }
 
-.explore-control {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 1200px) {
+  .explore-control {
+    display: flex;
+    align-items: center;
+  }
 }
 
-.explore-box {
-  margin-right: 130px;
+@media screen and (min-width: 1200px) {
+  .explore-box {
+    margin-right: 130px;
+  }
 }
 
 .portfolio {
@@ -1433,8 +1436,8 @@ img {
 }
 
 .control-benefits {
-  height: 320px;
-  width: 300px;
+  width: 577.05px;
+  height: 473.14px;
 }
 
 .benefits-card {
@@ -1452,6 +1455,14 @@ img {
   backdrop-filter: blur(84.6282px);
 }
 
+@media screen and (min-width: 1200px) {
+  .benefits-card {
+    width: 577.05px;
+    height: 473.14px;
+    left: 70%;
+  }
+}
+
 .benefits__title {
   font-family: "Inter";
   font-style: normal;
@@ -1459,6 +1470,14 @@ img {
   font-size: 25.87px;
   line-height: 1.35;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits__title {
+    width: 458.45px;
+    font-size: 44.5093px;
+    line-height: 1.36;
+  }
 }
 
 .benefits__text {
@@ -1470,18 +1489,40 @@ img {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .benefits__text {
+    width: 458.45px;
+    font-size: 20.0292px;
+    line-height: 1.8;
+  }
+}
+
 .benefits-control-first {
   display: flex;
   flex-direction: column;
   padding-top: 33px;
-  margin-left: 31px;
+  padding-left: 31px;
   margin-bottom: 26px;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits-control-first {
+    padding-top: 58px;
+    padding-left: 71px;
+  }
 }
 
 .benefits-control-secondary {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits-control-secondary {
+    padding-left: 71px;
+    justify-content: flex-start;
+  }
 }
 
 .benefits-control__link {
@@ -1494,6 +1535,13 @@ img {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .benefits-control__link {
+    font-size: 17.8037px;
+    line-height: 1.58;
+  }
+}
+
 .benefits-control__link-secondary {
   font-family: "Inter";
   font-style: normal;
@@ -1501,6 +1549,13 @@ img {
   font-size: 10.348px;
   line-height: 1.5;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits-control__link-secondary {
+    font-size: 17.8037px;
+    line-height: 1.58;
+  }
 }
 
 .subscribe {
