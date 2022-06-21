@@ -83,10 +83,6 @@
 
   border-radius: 20.7108px;
 
-  &:last-child {
-    margin-bottom: 0px;
-  }
-
   &:nth-child(n + 5) {
     display: none;
   }
@@ -227,4 +223,8 @@
 }
 
 .margin-control {
+}
+
+.green-text {
+  color: green;
 }
