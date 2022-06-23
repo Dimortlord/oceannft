@@ -1177,7 +1177,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .explore-image {
-    width: 435.55px;
+    width: 390.55px;
     height: 814.72px;
   }
 }
@@ -1186,6 +1186,8 @@ img {
   .explore-control {
     display: flex;
     align-items: center;
+    width: 435.55px;
+    height: 814.72px;
   }
 }
 
@@ -1871,6 +1873,13 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .subscribe-img {
+    width: 650px;
+    height: 289.63px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .subscribe-img {
     width: 698.65px;
     height: 289.63px;
