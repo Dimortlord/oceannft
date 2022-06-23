@@ -437,6 +437,7 @@ img {
 }
 
 .hero__brand-list {
+  margin-top: 80px;
   display: grid;
   gap: 20px 35px;
   grid-template-columns: 1fr 1fr;
