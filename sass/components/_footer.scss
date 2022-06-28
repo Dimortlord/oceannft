@@ -5,6 +5,22 @@
 
 .footer__icon {
   fill: violet;
+  cursor: pointer;
+}
+
+.footer__icon-social {
+  fill: violet;
+  cursor: pointer;
+}
+
+.footer__icon-social:hover,
+.footer__icon-social:focus {
+  color: blueviolet;
+  background: violet;
+  .hero__icon {
+    fill: #b936ee;
+    stroke: #b936ee;
+  }
 }
 
 .footer__logo {
@@ -188,7 +204,6 @@
   }
 }
 
-.active,
 .accordion:hover {
   background-color: rgba(32, 8, 59, 0.75);
 }
@@ -257,6 +272,11 @@
   }
 }
 .footer-market__link {
+  &:hover,
+  &:focus {
+    color: #b936ee;
+  }
+  cursor: pointer;
   @media screen and (min-width: 768px) {
   }
 
@@ -332,6 +352,11 @@
   }
 }
 .collectibles-market__link {
+  &:hover,
+  &:focus {
+    color: #b936ee;
+  }
+  cursor: pointer;
   @media screen and (min-width: 768px) {
   }
 
@@ -392,6 +417,11 @@
   }
 }
 .support-market__link {
+  &:hover,
+  &:focus {
+    color: #b936ee;
+  }
+  cursor: pointer;
   @media screen and (min-width: 768px) {
   }
 
@@ -452,6 +482,11 @@
   }
 }
 .legal-market__link {
+  &:hover,
+  &:focus {
+    color: #b936ee;
+  }
+  cursor: pointer;
   @media screen and (min-width: 768px) {
   }
 
@@ -511,6 +546,13 @@
   }
 }
 .follow-market__link {
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #b936ee;
+  }
+
   @media screen and (min-width: 768px) {
   }
 

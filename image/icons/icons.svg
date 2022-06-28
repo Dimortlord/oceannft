@@ -14,8 +14,8 @@
 </symbol>
 
 <symbol id="icon-arrow" viewBox="0 0 103 32">
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M83.498 27.184l10.486-10.486-10.486-10.486 2.097-4.195 14.681 14.681-14.681 14.681-2.097-4.195z"></path>
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.1946" d="M93.985 16.698l-92.28-0"></path>
+<path d="M83.498 27.184l10.486-10.486-10.486-10.486 2.097-4.195 14.681 14.681-14.681 14.681-2.097-4.195z"></path>
+<path  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.1946" d="M93.985 16.698l-92.28-0"></path>
 </symbol>
 
 

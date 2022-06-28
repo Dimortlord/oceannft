@@ -147,6 +147,17 @@
   backdrop-filter: blur(113.253px);
 
   border-radius: 1.17972px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: blueviolet;
+    background: violet;
+    .hero__icon {
+      fill: #b936ee;
+      stroke: #b936ee;
+    }
+  }
 
   @media screen and (min-width: 768px) {
     width: 249.83px;
@@ -160,6 +171,9 @@
 }
 
 .hero__icon {
+  fill: white;
+  stroke: white;
+
   @media screen and (min-width: 768px) {
     width: 52px;
     height: 16px;
@@ -295,7 +309,7 @@
     drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25));
 
   @media screen and (min-width: 375px) {
-    width: 325px;
+    width: 350px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -321,7 +335,8 @@
   border-radius: 8.52632px;
 
   @media screen and (min-width: 375px) {
-    width: 325px;
+    width: 350px;
+    justify-content: space-evenly;
   }
 
   @media screen and (min-width: 1200px) {
@@ -515,7 +530,7 @@
   font-family: "Rajdhani";
   font-style: normal;
   font-weight: 600;
-  font-size: 17.0526px;
+  font-size: 15.0526px;
   line-height: 22px;
   /* identical to box height */
 
@@ -539,8 +554,21 @@
   border-image-slice: 1;
 
   box-shadow: 0px 4.263157844543457px 103.38158416748047px 0px #ff56f682;
+
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background: #b936ee;
+    color: #ff56f6;
+    .box-confirm__img {
+      stroke: aqua;
+      fill: aqua;
+    }
+  }
 }
 
 .box-confirm__img {
   padding-left: 5px;
+  stroke: white;
+  fill: white;
 }

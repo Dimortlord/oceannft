@@ -68,7 +68,7 @@
 
 .subscribe-form__btn {
   width: 94.86px;
-  height: 37.11px;
+  height: 40px;
 
   background: linear-gradient(
     92.23deg,
@@ -98,8 +98,16 @@
 
   @media screen and (min-width: 1200px) {
     width: 143.71px;
-    height: 53.06px;
+    height: 59px;
     color: white;
+  }
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: blueviolet;
+    background: violet;
   }
 }
 
