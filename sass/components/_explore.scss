@@ -146,8 +146,11 @@
 }
 
 .explore-image {
+  width: 270px;
+  height: 450px;
+
   @media screen and (min-width: 1200px) {
-    width: 390.55px;
+    width: 500.55px;
     height: 814.72px;
   }
 }

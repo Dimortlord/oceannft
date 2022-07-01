@@ -32,6 +32,13 @@
   height: 61px;
   align-content: center;
   align-items: center;
+
+  @media screen and (min-width: 768px) {
+    align-items: baseline;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .header__logo {
@@ -46,6 +53,13 @@
   color: rgba(255, 255, 255, 0.6);
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .header__logo-span {
